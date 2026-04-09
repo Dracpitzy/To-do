@@ -58,7 +58,7 @@ You can test endpoints using:
 ---
 
 ##  Project Structure (Basic)
-
+ 
 project/
 │── manage.py
 │── app/
@@ -77,4 +77,4 @@ project/
 
 ##  License
 
-This project is for learning and educational purposes.
+This project is for learning and educational purposes. It is licensed under the Apache 2.0 license - see the [LICENSE](LICENSE) file for details
