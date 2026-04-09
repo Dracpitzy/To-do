@@ -1,11 +1,11 @@
-# 📝 To-Do API
+#  To-Do API
 
 A simple task management API built with Django and Django REST Framework.  
 It helps users create, track, update, and organize their daily tasks efficiently.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Create tasks  
 - Update tasks  
@@ -15,7 +15,7 @@ It helps users create, track, update, and organize their daily tasks efficiently
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python  
 - Django  
@@ -24,7 +24,7 @@ It helps users create, track, update, and organize their daily tasks efficiently
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. Clone the repository:
 git clone https://github.com/your-username/your-repo-name.git
@@ -45,7 +45,7 @@ python manage.py runserver
 
 ---
 
-## 🌐 API Usage
+##  API Usage
 
 Once the server is running, access the API at:
 http://127.0.0.1:8000/
@@ -57,7 +57,7 @@ You can test endpoints using:
 
 ---
 
-## 📂 Project Structure (Basic)
+##  Project Structure (Basic)
 
 project/
 │── manage.py
@@ -68,13 +68,13 @@ project/
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - The `.venv` folder and database files are excluded from version control.  
 - Use `requirements.txt` to install dependencies.  
 
 ---
 
-## 📄 License
+##  License
 
 This project is for learning and educational purposes.
