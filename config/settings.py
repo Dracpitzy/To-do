@@ -110,8 +110,7 @@ STATIC_URL = 'static/'
 import os
 
 if os.environ.get("CREATE_SUPERUSER") == "True":
-  from django.contrib.auth import
-  get_user_model
+  from django.contrib.auth import get_user_model
   User = get_user_model()
   username = os.environ.get("SU_USERNAME")
   email = os.environ.get("SU_EMAIL")
