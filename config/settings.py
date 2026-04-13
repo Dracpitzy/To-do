@@ -105,3 +105,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
+import os
+
+if os.environ.get("CREATE_SUPERUSER") == "True":
+  from django.contrib.auth import
+  get_user_model
+  User = get_user_model()
+  username = os.environ.get("SU_USERNAME")
+  email = os.environ.get("SU_EMAIL")
+  password = os.environ.get("SU_PASSWORD")
+  if username and email and password:
+    if not User.objects.filter(username= username).exists():
+      User.objects.create_superuser(username, email, password)
